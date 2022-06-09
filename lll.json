@@ -1,0 +1,2556 @@
+{
+    "result": "OK",
+    "data": {
+        "body": {
+            "header": "San Francisco, California, United States of America",
+            "query": {
+                "destination": {
+                    "id": "1493604",
+                    "value": "San Francisco, California, United States of America",
+                    "resolvedLocation": "CITY:1493604:UNKNOWN:UNKNOWN"
+                }
+            },
+            "searchResults": {
+                "totalCount": 1624,
+                "results": [
+                    {
+                        "id": 759024608,
+                        "name": "Page Hotel",
+                        "starRating": 2.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "161 Leavenworth St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94102",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 5.4,
+                            "rating": "5.4",
+                            "total": 105,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.5 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$43",
+                                "exactCurrent": 43.01
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Tenderloin",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "MESOTESTUS",
+                        "coordinate": {
+                            "lat": 37.78258,
+                            "lon": -122.41416
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 23688269,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/24000000/23690000/23688300/23688269/363a1b82_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 661666400,
+                        "name": "The Adrian",
+                        "starRating": 2.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "493 Eddy St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94109",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 4.0,
+                            "rating": "4.0",
+                            "total": 66,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.5 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$51",
+                                "exactCurrent": 50.88
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Tenderloin",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.78333,
+                            "lon": -122.41564
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 20645825,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/21000000/20650000/20645900/20645825/2f08d884_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1129201824,
+                        "name": "Hotel Sunnyside",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "135 6th St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94103",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 5.2,
+                            "rating": "5.2",
+                            "total": 68,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.5 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$56",
+                                "exactCurrent": 56.0
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "South of Market",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.780648,
+                            "lon": -122.407902
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 35256307,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/36000000/35260000/35256400/35256307/a5c70f6e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 448821,
+                        "name": "Winsor Hotel",
+                        "starRating": 1.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "20 6th Street",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94103",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.0,
+                            "rating": "6.0",
+                            "total": 484,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.4 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$56",
+                                "exactCurrent": 56.34
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Mid-Market",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|MESOTESTUS|D13|increaseNumberOfReviewsRequired|TESCO",
+                        "coordinate": {
+                            "lat": 37.781777,
+                            "lon": -122.409732
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 7237605,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/8000000/7240000/7237700/7237605/8a22f32e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 437034,
+                        "name": "El Capitan Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "2361 Mission St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94110",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 4.4,
+                            "rating": "4.4",
+                            "total": 800,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.0 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "10 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$58",
+                                "exactCurrent": 57.8
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Inner Mission",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.759248,
+                            "lon": -122.41908
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 6326351,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/7000000/6330000/6326400/6326351/517bc7a0_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 562132,
+                        "name": "Union Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "2030 Mission St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94110",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.0,
+                            "rating": "7.0",
+                            "total": 146,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.7 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "10 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$59",
+                                "exactCurrent": 59.0
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Inner Mission",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "MESOTESTUS",
+                        "coordinate": {
+                            "lat": 37.764487,
+                            "lon": -122.419661
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 12859473,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/13000000/12860000/12859500/12859473/81379325_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 453089,
+                        "name": "European Hostel",
+                        "starRating": 1.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "761 Minna Street",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94103",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 5.0,
+                            "rating": "5.0",
+                            "total": 432,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.8 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$62",
+                                "exactCurrent": 61.56
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "South of Market",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.776282,
+                            "lon": -122.413596
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 7807544,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/8000000/7810000/7807600/7807544/8e06e435_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 109688,
+                        "name": "Travelodge by Wyndham San Francisco Airport North",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "326 S Airport Blvd",
+                            "extendedAddress": "",
+                            "locality": "South San Francisco",
+                            "postalCode": "94080",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.2,
+                            "rating": "6.2",
+                            "total": 2190,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "9.8 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "2.2 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$64",
+                                "exactCurrent": 64.08,
+                                "old": "$89"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "South San Francisco",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|TESCO",
+                        "coordinate": {
+                            "lat": 37.645129,
+                            "lon": -122.40492
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 16955,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/20000/17000/16955/5f27bd70_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 612747904,
+                        "name": "Oak Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "171 Fell Street",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94102",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.4,
+                            "rating": "6.4",
+                            "total": 157,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.0 mile"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$65",
+                                "exactCurrent": 65.0
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Civic Center",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "priceRangeCA",
+                        "coordinate": {
+                            "lat": 37.77595,
+                            "lon": -122.42075
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 19117122,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/20000000/19120000/19117200/19117122/928b0413_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 193273,
+                        "name": "Hotel North Beach",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "935 Kearny Street",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94133",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.4,
+                            "rating": "6.4",
+                            "total": 1004,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.7 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "13 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$66",
+                                "exactCurrent": 66.35,
+                                "old": "$86"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Chinatown",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.79657,
+                            "lon": -122.40522
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 1154559,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1160000/1154600/1154559/a6d4d3b2_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 534659,
+                        "name": "Aldrich Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "439 Jones St.",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94102",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 4.4,
+                            "rating": "4.4",
+                            "total": 216,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.3 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$68",
+                                "exactCurrent": 67.55
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Downtown San Francisco",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 37.785444,
+                            "lon": -122.412938
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 2519545,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2520000/2519600/2519545/b69a8754_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 469712,
+                        "name": "The Utah Inn",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "500 4th Street",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94107",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 5.0,
+                            "rating": "5.0",
+                            "total": 561,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.8 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$69",
+                                "exactCurrent": 69.0
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "China Basin",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.779469,
+                            "lon": -122.397971
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 8766561,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8770000/8766600/8766561/4427e83f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 781670208,
+                        "name": "Bay Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "128 Jones St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94102",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 5.2,
+                            "rating": "5.2",
+                            "total": 300,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.4 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$70",
+                                "exactCurrent": 70.0
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Tenderloin",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.78252,
+                            "lon": -122.41206
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 24395944,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/25000000/24400000/24396000/24395944/aefa8dc2_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 441975,
+                        "name": "Casa Loma Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "610 Fillmore St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94117",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.0,
+                            "rating": "7.0",
+                            "total": 1057,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.5 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$70",
+                                "exactCurrent": 70.38,
+                                "old": "$82"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Western Addition",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.775001,
+                            "lon": -122.430973
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 6649235,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/7000000/6650000/6649300/6649235/3b86e074_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 697582,
+                        "name": "Hotel Sunrise",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "447 Valencia St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94103",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.4,
+                            "rating": "6.4",
+                            "total": 430,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.7 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$71",
+                                "exactCurrent": 71.0,
+                                "old": "$79"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Mission Dolores",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|priceRangeUS|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.76582,
+                            "lon": -122.42169
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 18529082,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/19000000/18530000/18529100/18529082/3295d2e3_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 425951584,
+                        "name": "Perramont Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "2162 Market Street",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94114",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.6,
+                            "rating": "6.6",
+                            "total": 28,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.9 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$75",
+                                "exactCurrent": 75.0
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Duboce Triangle",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
+                        "coordinate": {
+                            "lat": 37.766798,
+                            "lon": -122.430286
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 13279737,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/14000000/13280000/13279800/13279737/c93c471f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 458507,
+                        "name": "Europa Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "310 Columbus Avenue",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94133",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 4.8,
+                            "rating": "4.8",
+                            "total": 671,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.7 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "13 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$75",
+                                "exactCurrent": 75.0
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Telegraph Hill",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.798125,
+                            "lon": -122.406954
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 8206882,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8210000/8206900/8206882/cce655f3_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 487686,
+                        "name": "Amsterdam Hostel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "749 Taylor Street",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94108",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.2,
+                            "rating": "6.2",
+                            "total": 402,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.3 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$77",
+                                "exactCurrent": 76.5,
+                                "old": "$90"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Lower Nob Hill",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13",
+                        "coordinate": {
+                            "lat": 37.789425,
+                            "lon": -122.412064
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 9753107,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9760000/9753200/9753107/d3e5588a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 208881,
+                        "name": "Civic Center Motor Inn",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "364 9th St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94103",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.6,
+                            "rating": "6.6",
+                            "total": 1581,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.0 mile"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$80",
+                                "exactCurrent": 79.99
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "South of Market",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.772914,
+                            "lon": -122.410564
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 21724,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/30000/21800/21724/f29bf3af_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 218696,
+                        "name": "Mithila Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "972 Sutter St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94109",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.4,
+                            "rating": "6.4",
+                            "total": 1011,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.4 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$80",
+                                "exactCurrent": 80.1
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Lower Nob Hill",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|MESOTESTUS|D13|showFrequentlyAskedQuestionsenUS|TESCO",
+                        "coordinate": {
+                            "lat": 37.788276,
+                            "lon": -122.416288
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 871791,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/880000/871800/871791/8f2d9d11_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 224305,
+                        "name": "Inn By The SFO",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "701 Airport Blvd",
+                            "extendedAddress": "",
+                            "locality": "South San Francisco",
+                            "postalCode": "94080",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.2,
+                            "rating": "8.2",
+                            "total": 1001,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "8.9 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "3.1 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$81",
+                                "exactCurrent": 81.0,
+                                "old": "$90"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Downtown South San Francisco",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|MESOTESTUS|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.658433,
+                            "lon": -122.406029
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 1139289,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1140000/1139300/1139289/dddf41cd_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 122101,
+                        "name": "Hotel V",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "222 S Airport Blvd",
+                            "extendedAddress": "",
+                            "locality": "South San Francisco",
+                            "postalCode": "94080",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.0,
+                            "rating": "7.0",
+                            "total": 1004,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "9.6 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "2.4 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$85",
+                                "exactCurrent": 84.55,
+                                "old": "$89"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "South San Francisco",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|MESOTESTUS|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.648501,
+                            "lon": -122.405619
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 40571,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/50000/40600/40571/da06a549_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 670454,
+                        "name": "Warfield Hotel",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "118 Taylor St",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94102",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 5.2,
+                            "rating": "5.2",
+                            "total": 1013,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.3 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$85",
+                                "exactCurrent": 85.05,
+                                "old": "$95"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Downtown San Francisco",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.78352,
+                            "lon": -122.41074
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 17383168,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/18000000/17390000/17383200/17383168/0082cf54_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 685695,
+                        "name": "Geneva Motel Daly City",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "3233 Geneva Ave",
+                            "extendedAddress": "",
+                            "locality": "Daly City",
+                            "postalCode": "94014",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 5.6,
+                            "rating": "5.6",
+                            "total": 156,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "5.7 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "6.3 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$85",
+                                "exactCurrent": 85.36,
+                                "old": "$96"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Daly City",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.70538,
+                            "lon": -122.4083
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 18069626,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/19000000/18070000/18069700/18069626/e5a75a5c_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 554876,
+                        "name": "Admiral Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "608 O'Farrell Street",
+                            "extendedAddress": "",
+                            "locality": "San Francisco",
+                            "postalCode": "94109",
+                            "region": "CA",
+                            "countryName": "United States",
+                            "countryCode": "us",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.2,
+                            "rating": "6.2",
+                            "total": 132,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.4 miles"
+                            },
+                            {
+                                "label": "San Francisco International Airport (SFO)",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$89",
+                                "exactCurrent": 89.0
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Tenderloin",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|MESOTESTUS|D13|TESCO",
+                        "coordinate": {
+                            "lat": 37.785594,
+                            "lon": -122.414828
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 12614057,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/13000000/12620000/12614100/12614057/c34fb98a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    }
+                ],
+                "pagination": {
+                    "currentPage": 1,
+                    "pageGroup": "EXPEDIA_IN_POLYGON",
+                    "nextPageStartIndex": 25,
+                    "nextPageNumber": 2,
+                    "nextPageGroup": "EXPEDIA_IN_POLYGON"
+                }
+            },
+            "sortResults": {
+                "options": [
+                    {
+                        "label": "Star rating",
+                        "itemMeta": "star",
+                        "choices": [
+                            {
+                                "label": "Stars (high to low)",
+                                "value": "STAR_RATING_HIGHEST_FIRST",
+                                "selected": false
+                            },
+                            {
+                                "label": "Stars (low to high)",
+                                "value": "STAR_RATING_LOWEST_FIRST",
+                                "selected": false
+                            }
+                        ],
+                        "enhancedChoices": []
+                    },
+                    {
+                        "label": "Distance",
+                        "itemMeta": "distance",
+                        "choices": [
+                            {
+                                "label": "Distance to city center",
+                                "value": "DISTANCE_FROM_LANDMARK",
+                                "selected": false
+                            }
+                        ],
+                        "enhancedChoices": [
+                            {
+                                "label": "Landmarks",
+                                "itemMeta": "landmarks",
+                                "choices": [
+                                    {
+                                        "label": "City center",
+                                        "id": 1493604.0
+                                    },
+                                    {
+                                        "label": "Alcatraz Island",
+                                        "id": 1596.0
+                                    },
+                                    {
+                                        "label": "Bill Graham Civic Auditorium",
+                                        "id": 1707433.0
+                                    },
+                                    {
+                                        "label": "Cow Palace",
+                                        "id": 1668931.0
+                                    },
+                                    {
+                                        "label": "Golden Gate Bridge",
+                                        "id": 1001.0
+                                    },
+                                    {
+                                        "label": "Golden Gate Park",
+                                        "id": 1652900.0
+                                    },
+                                    {
+                                        "label": "Lombard Street",
+                                        "id": 1668932.0
+                                    },
+                                    {
+                                        "label": "Moscone Convention Center",
+                                        "id": 1407964.0
+                                    },
+                                    {
+                                        "label": "Ocean Beach",
+                                        "id": 1652923.0
+                                    },
+                                    {
+                                        "label": "Oracle Park",
+                                        "id": 583.0
+                                    },
+                                    {
+                                        "label": "Orpheum Theater",
+                                        "id": 1726000.0
+                                    },
+                                    {
+                                        "label": "Pier 39",
+                                        "id": 1652926.0
+                                    },
+                                    {
+                                        "label": "Presidio of San Francisco",
+                                        "id": 1668934.0
+                                    },
+                                    {
+                                        "label": "San Francisco City Hall",
+                                        "id": 1652930.0
+                                    },
+                                    {
+                                        "label": "San Francisco State University",
+                                        "id": 1652932.0
+                                    },
+                                    {
+                                        "label": "SHN Curran Theatre",
+                                        "id": 1750741.0
+                                    },
+                                    {
+                                        "label": "The Regency Ballroom",
+                                        "id": 10832926.0
+                                    },
+                                    {
+                                        "label": "UCSF Medical Center",
+                                        "id": 11129819.0
+                                    },
+                                    {
+                                        "label": "UCSF Mission Bay",
+                                        "id": 11129798.0
+                                    },
+                                    {
+                                        "label": "Warfield Theater",
+                                        "id": 1707935.0
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Train stations",
+                                "itemMeta": "stations",
+                                "choices": [
+                                    {
+                                        "label": "16th Street Mission Station",
+                                        "id": 1726781.0
+                                    },
+                                    {
+                                        "label": "22nd Street Station",
+                                        "id": 1724052.0
+                                    },
+                                    {
+                                        "label": "24th Street Mission Station",
+                                        "id": 1726783.0
+                                    },
+                                    {
+                                        "label": "Balboa Park Station",
+                                        "id": 1726787.0
+                                    },
+                                    {
+                                        "label": "Bayshore Station",
+                                        "id": 1724053.0
+                                    },
+                                    {
+                                        "label": "Civic Center Station",
+                                        "id": 1726774.0
+                                    },
+                                    {
+                                        "label": "Daly City Station",
+                                        "id": 1726789.0
+                                    },
+                                    {
+                                        "label": "Embarcadero Station",
+                                        "id": 1726771.0
+                                    },
+                                    {
+                                        "label": "Glen Park Station",
+                                        "id": 1726784.0
+                                    },
+                                    {
+                                        "label": "Hyde St & Beach St Stop",
+                                        "id": 1725592.0
+                                    },
+                                    {
+                                        "label": "Millbrae Station",
+                                        "id": 1726803.0
+                                    },
+                                    {
+                                        "label": "Montgomery St. Station",
+                                        "id": 1726772.0
+                                    },
+                                    {
+                                        "label": "Powell St & Market St Stop",
+                                        "id": 1725570.0
+                                    },
+                                    {
+                                        "label": "Powell St. Station",
+                                        "id": 1726773.0
+                                    },
+                                    {
+                                        "label": "San Bruno Station",
+                                        "id": 1725479.0
+                                    },
+                                    {
+                                        "label": "San Francisco Intl. Airport Station",
+                                        "id": 1726802.0
+                                    },
+                                    {
+                                        "label": "San Francisco Station",
+                                        "id": 1725529.0
+                                    },
+                                    {
+                                        "label": "South San Francisco Metro Station",
+                                        "id": 1726792.0
+                                    },
+                                    {
+                                        "label": "South San Francisco Station",
+                                        "id": 1724054.0
+                                    },
+                                    {
+                                        "label": "Taylor St & Bay St Stop",
+                                        "id": 10903812.0
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Airports",
+                                "itemMeta": "airports",
+                                "choices": [
+                                    {
+                                        "label": "Concord, CA (CCR-Buchanan Field)",
+                                        "id": 1648527.0
+                                    },
+                                    {
+                                        "label": "Oakland, CA (OAK-Oakland Intl.)",
+                                        "id": 1500598.0
+                                    },
+                                    {
+                                        "label": "San Francisco International Airport (SFO)",
+                                        "id": 1425211.0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Guest rating",
+                        "itemMeta": "rating",
+                        "choices": [
+                            {
+                                "label": "Guest rating",
+                                "value": "GUEST_RATING",
+                                "selected": false
+                            }
+                        ],
+                        "enhancedChoices": []
+                    },
+                    {
+                        "label": "Price",
+                        "itemMeta": "price",
+                        "selectedChoiceLabel": "Price (low to high)",
+                        "choices": [
+                            {
+                                "label": "Price (high to low)",
+                                "value": "PRICE_HIGHEST_FIRST",
+                                "selected": false
+                            },
+                            {
+                                "label": "Price (low to high)",
+                                "value": "PRICE",
+                                "selected": true
+                            }
+                        ],
+                        "enhancedChoices": []
+                    }
+                ],
+                "distanceOptionLandmarkId": 1493604.0
+            },
+            "filters": {
+                "applied": false,
+                "name": {
+                    "item": {
+                        "value": ""
+                    },
+                    "autosuggest": {
+                        "additionalUrlParams": {
+                            "resolved-location": "CITY:1493604:UNKNOWN:UNKNOWN",
+                            "q-destination": "San Francisco, California, United States of America",
+                            "destination-id": "1493604"
+                        }
+                    }
+                },
+                "starRating": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "value": 5
+                        },
+                        {
+                            "value": 4
+                        },
+                        {
+                            "value": 3
+                        },
+                        {
+                            "value": 2
+                        },
+                        {
+                            "value": 1
+                        }
+                    ]
+                },
+                "guestRating": {
+                    "range": {
+                        "min": {
+                            "defaultValue": 0.0
+                        },
+                        "max": {
+                            "defaultValue": 10.0
+                        }
+                    }
+                },
+                "landmarks": {
+                    "selectedOrder": [],
+                    "items": [
+                        {
+                            "label": "City center",
+                            "value": "1493604"
+                        },
+                        {
+                            "label": "San Francisco International Airport (SFO)",
+                            "value": "1425211"
+                        },
+                        {
+                            "label": "Moscone Convention Center",
+                            "value": "1407964"
+                        },
+                        {
+                            "label": "Pier 39",
+                            "value": "1652926"
+                        },
+                        {
+                            "label": "Oakland, CA (OAK-Oakland Intl.)",
+                            "value": "1500598"
+                        },
+                        {
+                            "label": "Golden Gate Bridge",
+                            "value": "1001"
+                        },
+                        {
+                            "label": "Bill Graham Civic Auditorium",
+                            "value": "1707433"
+                        },
+                        {
+                            "label": "UCSF Medical Center",
+                            "value": "11129819"
+                        },
+                        {
+                            "label": "Hyde St & Beach St Stop",
+                            "value": "1725592"
+                        },
+                        {
+                            "label": "Alcatraz Island",
+                            "value": "1596"
+                        },
+                        {
+                            "label": "Oracle Park",
+                            "value": "583"
+                        },
+                        {
+                            "label": "UCSF Mission Bay",
+                            "value": "11129798"
+                        },
+                        {
+                            "label": "Orpheum Theater",
+                            "value": "1726000"
+                        },
+                        {
+                            "label": "Lombard Street",
+                            "value": "1668932"
+                        },
+                        {
+                            "label": "Golden Gate Park",
+                            "value": "1652900"
+                        },
+                        {
+                            "label": "SHN Curran Theatre",
+                            "value": "1750741"
+                        },
+                        {
+                            "label": "Ocean Beach",
+                            "value": "1652923"
+                        },
+                        {
+                            "label": "Warfield Theater",
+                            "value": "1707935"
+                        },
+                        {
+                            "label": "Cow Palace",
+                            "value": "1668931"
+                        },
+                        {
+                            "label": "Presidio of San Francisco",
+                            "value": "1668934"
+                        }
+                    ],
+                    "distance": []
+                },
+                "neighbourhood": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Union Square",
+                            "value": "1409874"
+                        },
+                        {
+                            "label": "Fisherman's Wharf",
+                            "value": "1292"
+                        },
+                        {
+                            "label": "Financial District",
+                            "value": "1648511"
+                        },
+                        {
+                            "label": "Japantown",
+                            "value": "1704569"
+                        },
+                        {
+                            "label": "Nob Hill",
+                            "value": "1691120"
+                        },
+                        {
+                            "label": "North Beach",
+                            "value": "1691109"
+                        },
+                        {
+                            "label": "Marina District",
+                            "value": "1691108"
+                        },
+                        {
+                            "label": "Chinatown",
+                            "value": "1690270"
+                        },
+                        {
+                            "label": "Civic Center",
+                            "value": "1698666"
+                        },
+                        {
+                            "label": "Castro District",
+                            "value": "1691104"
+                        },
+                        {
+                            "label": "South of Market",
+                            "value": "1691110"
+                        },
+                        {
+                            "label": "Cow Hollow",
+                            "value": "1708012"
+                        },
+                        {
+                            "label": "Tenderloin",
+                            "value": "1737814"
+                        },
+                        {
+                            "label": "Noe Valley",
+                            "value": "1708016"
+                        },
+                        {
+                            "label": "Russian Hill",
+                            "value": "10789133"
+                        },
+                        {
+                            "label": "Downtown San Francisco",
+                            "value": "1704726"
+                        },
+                        {
+                            "label": "Mission District",
+                            "value": "1691123"
+                        },
+                        {
+                            "label": "Theater District",
+                            "value": "1704707"
+                        },
+                        {
+                            "label": "Haight-Ashbury",
+                            "value": "1691105"
+                        },
+                        {
+                            "label": "South Beach",
+                            "value": "1737813"
+                        },
+                        {
+                            "label": "Fillmore District",
+                            "value": "11047294"
+                        },
+                        {
+                            "label": "Sunset District",
+                            "value": "1691114"
+                        },
+                        {
+                            "label": "Hayes Valley",
+                            "value": "1708013"
+                        },
+                        {
+                            "label": "Richmond District",
+                            "value": "1691116"
+                        },
+                        {
+                            "label": "Pacific Heights",
+                            "value": "1691113"
+                        },
+                        {
+                            "label": "Broadmoor",
+                            "value": "12516043"
+                        },
+                        {
+                            "label": "Cole Valley",
+                            "value": "10517944"
+                        },
+                        {
+                            "label": "Mission Dolores",
+                            "value": "1652918"
+                        },
+                        {
+                            "label": "Jackson Square",
+                            "value": "1704451"
+                        },
+                        {
+                            "label": "Polk Gulch",
+                            "value": "1737810"
+                        },
+                        {
+                            "label": "Western Addition",
+                            "value": "1691111"
+                        },
+                        {
+                            "label": "Fairway Park",
+                            "value": "12507739"
+                        },
+                        {
+                            "label": "Outer Mission",
+                            "value": "12536036"
+                        },
+                        {
+                            "label": "Golden Gate",
+                            "value": "12529156"
+                        },
+                        {
+                            "label": "Westlake",
+                            "value": "12546797"
+                        },
+                        {
+                            "label": "Mission Bay",
+                            "value": "12522862"
+                        },
+                        {
+                            "label": "Cathedral Hill",
+                            "value": "12512299"
+                        },
+                        {
+                            "label": "The East Side",
+                            "value": "12529921"
+                        },
+                        {
+                            "label": "Duboce Triangle",
+                            "value": "12508139"
+                        },
+                        {
+                            "label": "Serra Highlands",
+                            "value": "12529259"
+                        },
+                        {
+                            "label": "Downtown Brisbane",
+                            "value": "12536184"
+                        },
+                        {
+                            "label": "Paradise Valley",
+                            "value": "12517912"
+                        },
+                        {
+                            "label": "Outer Sunset",
+                            "value": "12536181"
+                        },
+                        {
+                            "label": "Lower Pacific Heights",
+                            "value": "12529408"
+                        },
+                        {
+                            "label": "Lower Nob Hill",
+                            "value": "12504974"
+                        },
+                        {
+                            "label": "St. Francis",
+                            "value": "12548325"
+                        },
+                        {
+                            "label": "Pedro Point",
+                            "value": "12527115"
+                        },
+                        {
+                            "label": "La Lengua",
+                            "value": "12517728"
+                        },
+                        {
+                            "label": "Linda Mar",
+                            "value": "12527111"
+                        },
+                        {
+                            "label": "Panhandle",
+                            "value": "12503559"
+                        },
+                        {
+                            "label": "Presidio Heights",
+                            "value": "12533428"
+                        },
+                        {
+                            "label": "China Basin",
+                            "value": "12521456"
+                        },
+                        {
+                            "label": "Rockaway Beach",
+                            "value": "12536135"
+                        },
+                        {
+                            "label": "Telegraph Hill",
+                            "value": "12504976"
+                        },
+                        {
+                            "label": "Sharp Park",
+                            "value": "12517640"
+                        },
+                        {
+                            "label": "Buena Vista",
+                            "value": "12517366"
+                        },
+                        {
+                            "label": "Edgemar - Pacific Manor",
+                            "value": "12517596"
+                        },
+                        {
+                            "label": "Inner Richmond",
+                            "value": "12521665"
+                        },
+                        {
+                            "label": "Oyster Point",
+                            "value": "12533429"
+                        },
+                        {
+                            "label": "Bayshore Heights",
+                            "value": "12536806"
+                        },
+                        {
+                            "label": "Downtown South San Francisco",
+                            "value": "12526339"
+                        },
+                        {
+                            "label": "Crocker-Amazon",
+                            "value": "12529878"
+                        },
+                        {
+                            "label": "Southern Hills",
+                            "value": "12508112"
+                        },
+                        {
+                            "label": "Parkside",
+                            "value": "1691115"
+                        },
+                        {
+                            "label": "Eureka Valley",
+                            "value": "12512817"
+                        },
+                        {
+                            "label": "Lower Haight",
+                            "value": "12505261"
+                        },
+                        {
+                            "label": "Presidio",
+                            "value": "12529403"
+                        },
+                        {
+                            "label": "Lake Street",
+                            "value": "12536376"
+                        },
+                        {
+                            "label": "Serramonte",
+                            "value": "12522208"
+                        },
+                        {
+                            "label": "Inner Mission",
+                            "value": "12517314"
+                        },
+                        {
+                            "label": "Mid-Market",
+                            "value": "12503476"
+                        },
+                        {
+                            "label": "Park Pacifica",
+                            "value": "12517947"
+                        },
+                        {
+                            "label": "Little Saigon",
+                            "value": "12517646"
+                        },
+                        {
+                            "label": "Lakeshore",
+                            "value": "12529596"
+                        },
+                        {
+                            "label": "Crocker",
+                            "value": "12526927"
+                        }
+                    ]
+                },
+                "accommodationType": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Apart-hotels",
+                            "value": "20"
+                        },
+                        {
+                            "label": "Apartments",
+                            "value": "15"
+                        },
+                        {
+                            "label": "B&Bs",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Cabins and lodges",
+                            "value": "9"
+                        },
+                        {
+                            "label": "Capsule hotels",
+                            "value": "43"
+                        },
+                        {
+                            "label": "Cottages",
+                            "value": "11"
+                        },
+                        {
+                            "label": "Guest houses",
+                            "value": "30"
+                        },
+                        {
+                            "label": "Hostels",
+                            "value": "12"
+                        },
+                        {
+                            "label": "Hotels",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Houseboats",
+                            "value": "16"
+                        },
+                        {
+                            "label": "Inns",
+                            "value": "8"
+                        },
+                        {
+                            "label": "Motels",
+                            "value": "7"
+                        },
+                        {
+                            "label": "Vacation homes",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Villas",
+                            "value": "14"
+                        }
+                    ]
+                },
+                "facilities": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "24-hour front desk",
+                            "value": "2063"
+                        },
+                        {
+                            "label": "Airport transfers",
+                            "value": "513"
+                        },
+                        {
+                            "label": "Bar",
+                            "value": "515"
+                        },
+                        {
+                            "label": "Bathtub in room",
+                            "value": "517"
+                        },
+                        {
+                            "label": "Breakfast included",
+                            "value": "2048"
+                        },
+                        {
+                            "label": "Business facilities",
+                            "value": "519"
+                        },
+                        {
+                            "label": "Childcare",
+                            "value": "521"
+                        },
+                        {
+                            "label": "Connecting rooms available",
+                            "value": "523"
+                        },
+                        {
+                            "label": "Cribs available",
+                            "value": "525"
+                        },
+                        {
+                            "label": "Electric vehicle charging point",
+                            "value": "1073743315"
+                        },
+                        {
+                            "label": "Gym",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Internet Access",
+                            "value": "8"
+                        },
+                        {
+                            "label": "Kitchen",
+                            "value": "32"
+                        },
+                        {
+                            "label": "Meeting Facilities",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Non-smoking",
+                            "value": "529"
+                        },
+                        {
+                            "label": "Parking",
+                            "value": "134234112"
+                        },
+                        {
+                            "label": "Pet Friendly",
+                            "value": "64"
+                        },
+                        {
+                            "label": "Pool",
+                            "value": "128"
+                        },
+                        {
+                            "label": "Restaurant",
+                            "value": "256"
+                        },
+                        {
+                            "label": "Ski-in/ski-out",
+                            "value": "535"
+                        },
+                        {
+                            "label": "Smoking areas",
+                            "value": "537"
+                        },
+                        {
+                            "label": "Spa",
+                            "value": "539"
+                        },
+                        {
+                            "label": "WiFi included",
+                            "value": "527"
+                        }
+                    ]
+                },
+                "accessibility": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Accessibility equipment for the deaf",
+                            "value": "2097152"
+                        },
+                        {
+                            "label": "Accessible bathroom",
+                            "value": "131072"
+                        },
+                        {
+                            "label": "Accessible parking",
+                            "value": "524288"
+                        },
+                        {
+                            "label": "Accessible path of travel",
+                            "value": "65536"
+                        },
+                        {
+                            "label": "Braille or raised signage",
+                            "value": "4194304"
+                        },
+                        {
+                            "label": "In-room accessibility",
+                            "value": "1048576"
+                        },
+                        {
+                            "label": "Roll-in shower",
+                            "value": "262144"
+                        },
+                        {
+                            "label": "Wheelchair accessible rooms",
+                            "value": "541"
+                        }
+                    ]
+                },
+                "themesAndTypes": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Adventure",
+                            "value": "18"
+                        },
+                        {
+                            "label": "Beach",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Boutique",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Business",
+                            "value": "14"
+                        },
+                        {
+                            "label": "Family-friendly",
+                            "value": "25"
+                        },
+                        {
+                            "label": "Golf",
+                            "value": "26"
+                        },
+                        {
+                            "label": "Historic",
+                            "value": "2"
+                        },
+                        {
+                            "label": "LGBTQ Welcoming",
+                            "value": "21"
+                        },
+                        {
+                            "label": "Luxury",
+                            "value": "15"
+                        },
+                        {
+                            "label": "Romantic",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Shopping",
+                            "value": "17"
+                        },
+                        {
+                            "label": "Ski",
+                            "value": "28"
+                        },
+                        {
+                            "label": "Spa Hotel",
+                            "value": "27"
+                        }
+                    ]
+                },
+                "price": {
+                    "label": "Nightly Price",
+                    "range": {
+                        "min": {
+                            "defaultValue": 0
+                        },
+                        "max": {
+                            "defaultValue": 500
+                        },
+                        "increments": 5
+                    },
+                    "multiplier": 1
+                },
+                "paymentPreference": {
+                    "items": [
+                        {
+                            "label": "Pay with Hotels.com gift card",
+                            "value": "gc"
+                        }
+                    ]
+                },
+                "welcomeRewards": {
+                    "label": "Hotels.com\u00ae Rewards",
+                    "items": [
+                        {
+                            "label": "Collect stamps",
+                            "value": "collect"
+                        },
+                        {
+                            "label": "Redeem reward* nights",
+                            "value": "redeem"
+                        }
+                    ]
+                }
+            },
+            "pointOfSale": {
+                "currency": {
+                    "code": "USD",
+                    "symbol": "$",
+                    "separators": ",.",
+                    "format": "${0}"
+                }
+            },
+            "miscellaneous": {
+                "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=1493604&hotelIds=759024608,661666400,1129201824,448821,437034,562132,453089,109688,612747904,193273,534659,469712,781670208,441975,697582,425951584,458507,487686,208881,218696,224305,122101,670454,685695,554876&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=90d3c103-1a49-4eb1-a641-436636971828&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=2600:1700:70e1:c80:b8e3:c56b:621a:ae1e&action=pageview&publisher=expedia&programId=1",
+                "showLegalInfoForStrikethroughPrices": true,
+                "legalInfoForStrikethroughPrices": "The struck-out price is based on the property\u2019s standard rate on our app, as determined and supplied by the property."
+            },
+            "pageInfo": {
+                "pageType": "dateless"
+            }
+        },
+        "common": {
+            "pointOfSale": {
+                "numberSeparators": ",.",
+                "brandName": "Hotels.com"
+            },
+            "tracking": {
+                "omniture": {
+                    "s.prop33": "D=v33",
+                    "s.prop32": "D=v43",
+                    "s.prop74": "search result without dates | ms shown | N",
+                    "s.products": "LOCAL;23688269,LOCAL;20645825,LOCAL;35256307",
+                    "s.eVar16": "Mob :: aApp",
+                    "s.eVar40": "D=v0",
+                    "s.eVar41": "USD",
+                    "s.eVar63": "a3928d25-b596-4132-854a-01727c72e615",
+                    "s.eVar42": "dateless",
+                    "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                    "s.eVar43": "en_US|HCOM_US|www.hotels.com",
+                    "s.eVar2": "San Francisco, California, United States of America",
+                    "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
+                    "s.eVar7": "",
+                    "s.server": "www.hotels.com",
+                    "s.eVar6": "1493604",
+                    "s.prop29": "D=v42",
+                    "s.prop27": "90d3c103-1a49-4eb1-a641-436636971828",
+                    "s.eVar9": "Price - low to high",
+                    "s.eVar69": "Mob :: aApp",
+                    "s.currencyCode": "USD",
+                    "s.eVar26": "US:TX:FORTWORTH:623",
+                    "s.eVar29": "Mob :: aApp",
+                    "s.prop9": "1624",
+                    "s.eVar95": "Unknown",
+                    "s.prop7": "711",
+                    "s.eVar31": "D=v0",
+                    "s.eVar32": "D=v0",
+                    "s.eVar33": "search result without dates",
+                    "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.000,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.001",
+                    "s.eVar13": "389367",
+                    "s.events": "event324,event320",
+                    "s.prop18": "D=v6",
+                    "s.prop5": "389367",
+                    "s.prop15": "",
+                    "s.prop3": "San Francisco, California, United States of America",
+                    "s.prop14": "D=v7",
+                    "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                    "s.eVar93": "aws.us-east-1.unknown",
+                    "s.prop2": "Price - low to high"
+                }
+            }
+        }
+    }
+}
