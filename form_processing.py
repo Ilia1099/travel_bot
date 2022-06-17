@@ -1,10 +1,8 @@
-import asyncio
 from telebot.async_telebot import types, AsyncTeleBot
 from markups import Switcher, ComBtns
 from typing import Optional
 from form_parametres import CreateParams
-from requester import Processor
-from tests.test_requester.test_parser import test_hotel
+import process_hotels
 import re
 
 
@@ -50,8 +48,8 @@ class Form:
             await self.__bot.send_message(self.__mes.from_user.id,
                                           text='request created',
                                           reply_markup=await markup)
-            await Processor(self.__temp_storage, self.__bot,
-                            self.__mes.from_user.id).operate()
+            await process_hotels.Processor(self.__temp_storage, self.__bot,
+                                           self.__mes.from_user.id).operate()
         else:
             if re.match(validation, self.__mes.text):
                 await self._get_data(text, next_step)
