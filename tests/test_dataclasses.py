@@ -1,4 +1,3 @@
-
 from dataclasses_for_parsing import CommonParams, PropParams, BestDeal, asdict
 
 
@@ -37,3 +36,4 @@ def test_best_deal():
     assert t3
     assert t3.locale == 'en-US'
     assert t3.currency == 'USD'
+

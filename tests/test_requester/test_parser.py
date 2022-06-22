@@ -1,11 +1,14 @@
-from typing import Iterable, List, Any
 import re
+from typing import Iterable
+
 import pytest
-from unittest.mock import Mock, patch
-from requester import ParseData, ReqParams, AioRequester, Processor
-from dataclasses_for_parsing import FoundHotel, ResultsStorage, PhotoKeeper
-from telebot.async_telebot import AsyncTeleBot
+from requester import ReqParams
+from dataclasses_for_parsing import PhotoKeeper
+from parse_data import ParseHotelData
 import json
+from unittest.mock import Mock
+from string import ascii_lowercase
+import random
 
 example = {'sortOrder': 'PRICE_HIGHEST_FIRST', 'params': '/highest_price',
            'query': 'usa new york', 'pageSize': '7',
@@ -65,6 +68,29 @@ test_hotel = [{'id': 759024608, 'name': 'Page Hotel', 'starRating': 2.5,
               ]
 
 
+def mock_photos():
+    mck = {'baseUrl': ''.join(random.choices(ascii_lowercase, k=25)),
+           'imageId': int(''.join([str(random.randint(0, 9))
+                                   for _ in range(5)]))}
+    return mck
+
+
+def mock_resp_photo():
+    resp = Mock()
+    resp.status = 200
+    resp.json = {
+        'hotelId': int(''.join([str(random.randint(0, 9)) for _ in range(5)])),
+        'hotelImages': [mock_photos() for _ in range(20)]}
+    return resp.json
+
+
+def mock_resp_photo_empty():
+    resp = Mock()
+    resp.status = 200
+    resp.json = {}
+    return resp.json
+
+
 def mock_response(
         raiss=None,
         status=200,
@@ -81,8 +107,8 @@ def mock_response(
 
 @pytest.mark.asyncio
 async def test_get_destids():
-    res = ParseData().get_dids(val)
-    assert type(res) == list
+    res = ParseHotelData().get_dids(val)
+    assert type(res) in (list, tuple)
     assert isinstance(res[0], (int, str))
 
 
@@ -98,15 +124,16 @@ async def test_date_converter():
 
 @pytest.mark.asyncio
 def test_process_responses():
-    sample = ParseData()
+    sample = ParseHotelData()
     result = sample.get_hotels(param)
     assert isinstance(result.list_of_results[0], dict)
 
 
 @pytest.mark.asyncio
 def test_hotel_data():
-    res = ParseData().get_hotels(param)
-    hotel_to_send = ParseData().hotel_data(res)
+    res = ParseHotelData().get_hotels(param)
+    hotel_to_send = ParseHotelData().hotel_data(res, 3)
+    print(hotel_to_send.list_of_results)
     assert hotel_to_send
 
 
@@ -114,42 +141,23 @@ def test_get_dids():
     with open('/Users/ilya/PycharmProjects/python_basic_diploma/tests/dst'
               '.json', 'r') as file:
         test_resp = json.load(file)
-    test_get = ParseData().get_dids(test_resp)
+    test_get = ParseHotelData().get_dids(test_resp)
     assert all([isinstance(s, str) for s in test_get])
 
 
-def test_send_res():
-    t_hotel1 = FoundHotel(
-        id=1, name='rnd', address='', label='', distance='', price='12',
-        exact_price=13)
-    t_hotel2 = FoundHotel(
-        id=2, name='rnd2', address='', label='', distance='', price='14',
-        exact_price=15)
-    t_hotel1.photo_urls.append('url')
-    storage = ResultsStorage()
-    storage.list_of_results.extend([t_hotel1, t_hotel2])
-    assert t_hotel1.photo_urls[0] == 'url'
-
-
-def test_get_photo_urls():
-    test_photo_resps = [
-        {'hotelId': 1234, 'hotelImages': [
-            {'baseUrl': "https://exp.cdn-hotels.com/hotels/15000000/14770000"
-                        "/14763300/14763204/5bdb06e9_{size}.jpg"},
-            {'baseUrl': "https://exp.cdn-hotels.com/hotels/15000000/14770000"
-                        "/14763300/14763204/5bdb06e9_{size}.jpg"}
-        ]
-         },
-        {'hotelId': 3456, 'hotelImages': [
-            {'baseUrl': "https://exp.cdn-hotels.com/hotels/15000000/14770000"
-                        "/14763300/14763204/5bdb06e9_{size}.jpg"},
-            {'baseUrl': "https://exp.cdn-hotels.com/hotels/15000000/14770000"
-                        "/14763300/14763204/5bdb06e9_{size}.jpg"}
-        ]}
-    ]
+def test_photos_urls():
     test_keeper = PhotoKeeper()
-    test_get_photos = ParseData().get_photo_urls(test_keeper, test_photo_resps)
-    assert 1234 in test_get_photos.collected_photos
-    assert test_get_photos.collected_photos[1234][0] == \
-           "https://exp.cdn-hotels.com/hotels/15000000/14770000/14763300" \
-           "/14763204/5bdb06e9_d.jpg"
+    mock_list_resps = [mock_resp_photo() for _ in range(5)]
+    res = ParseHotelData.get_photo_urls(test_keeper, mock_list_resps)
+    for _ in res.collected_photos.items():
+        print('\n', _)
+    assert res
+
+
+def test_photos_urls_no_photo():
+    test_keeper = PhotoKeeper()
+    mock_list_resps = [mock_resp_photo_empty() for _ in range(5)]
+    res = ParseHotelData.get_photo_urls(test_keeper, mock_list_resps)
+    for _ in res.collected_photos.items():
+        print('\n', _)
+    assert res

@@ -14,10 +14,9 @@ class FormMiddleware(BaseMiddleware):
         super().__init__()
 
     async def pre_process(self, message: types.Message, data) -> None:
-        """
-        Method which checks for existence of state if exists changes content
-        type to make sure that message will be processed by specified
-        handler and saves response of the current state
+        """Method which checks for existence of state
+        If exists changes content type to make sure that message will be
+        processed by specified handler and saves response of the current state
         """
         state = await self.__bot.get_state(message.from_user.id, message.chat.id)
         if state:

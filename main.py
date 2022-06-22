@@ -52,7 +52,7 @@ async def best_deal(message: types.Message):
     """
     Message handler which launches questioning to make a corresponding request
     """
-    await Form.begin(bot, message, False)
+    await Form.begin(bot, message, 'PRICE')
 
 
 @bot.message_handler(commands=['highest_price'])
