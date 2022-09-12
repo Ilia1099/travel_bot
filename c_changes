@@ -1,0 +1,5 @@
+* changed path variable for database file in db_connector.DbSesManager
+* added correction_of_fields.py to work_with_db dir
+* add to README info that after adding new model it is required to add it's 
+  name to REGISTERED_MODELS_FOR_BOT list in module bot_models.py for 
+  further schema auto-checking
