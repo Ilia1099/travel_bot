@@ -5,23 +5,20 @@ import asyncio
 import aiohttp
 
 
-class NoData(BaseException):
-    """Exception for case when response doesn't contain data in body"""
-
-
 class ReqParams:
     """Class for preparing request parameters"""
     def __init__(self, form: dict):
         self._form = form
 
-    def get_locals(self) -> dict:
+    def get_locals(self, *args, **kwargs) -> dict:
         """Method which creates instance of CommonParams class and returns it
         as dict"""
         return asdict(CommonParams(query=self._form.get('query')))
 
-    def get_properties(self, destid: str) -> dict:
+    def get_properties(self, *args, **kwargs) -> dict:
         """Method which creates instance of PropParams class and returns it as
         dict"""
+        destid: str = kwargs.get('id')
         if destid.isdigit():
             query, checkout, checkin, pagesize, sortorder = self._fill_params()
             return asdict(PropParams(query=query, checkIn=checkin,
@@ -29,9 +26,10 @@ class ReqParams:
                                      destinationId=destid, sortOrder=sortorder))
         raise TypeError('variable destid is not a digit string')
 
-    def get_best_deal(self, destid: str) -> dict:
+    def get_best_deal(self, *args, **kwargs) -> dict:
         """Method which creates instance of BestDeal class and returns it
         as dict"""
+        destid: str = kwargs.get('id')
         if destid.isdigit():
             query, checkout, checkin, pagesize, sortorder = self._fill_params()
             maxprice = self._form.get('priceMax')
@@ -42,10 +40,11 @@ class ReqParams:
                                    priceMin=minprice, priceMax=maxprice))
         raise TypeError('variable destid is not a digit string')
 
-    @classmethod
-    def get_photos(cls, hotel_id: int) -> dict:
+    @staticmethod
+    def get_photos(*args, **kwargs) -> dict:
         """Method which creates instance of GetPhotoReq class and returns it as
         dict"""
+        hotel_id: int = kwargs.get('id')
         if isinstance(hotel_id, int):
             return asdict(GetPhotoReq(id=str(hotel_id)))
         raise TypeError("hotel_id variable is not an integer")

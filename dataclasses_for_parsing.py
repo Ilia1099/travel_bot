@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field, asdict
 from typing import List, Any
-from os import linesep
 
 
 @dataclass
@@ -27,18 +26,21 @@ class FoundHotel:
     label: str = field(repr=False)
     distance: str = field(repr=False)
     price: str = field(repr=False)
+    hotel_url: str = field(repr=False, init=False)
     exact_price: int = field(repr=False)
     query_type: str = field(repr=False)
+    total_days: int = field(repr=False)
+    total_cost: str = field(init=False, repr=False)
 
     def __post_init__(self):
-        object.__setattr__(self, 'exact_price', str(self.exact_price))
+        object.__setattr__(self, 'total_cost',
+                           f'{self.exact_price * self.total_days}$')
+        object.__setattr__(self, 'exact_price', f'{str(self.exact_price)}$')
+        object.__setattr__(self, 'hotel_url', f'www.hotels.com/ho{self.id}')
         if self.query_type == '/best_deal':
             object.__setattr__(self, 'sort_index', self.distance)
         else:
             object.__setattr__(self, 'sort_index', self.exact_price)
 
-    def __str__(self):
-        return f"{linesep}Name: {self.name}{linesep}" \
-               f"Address: {self.address}{linesep}" \
-               f"Distance from {self.label}: {self.distance}{linesep}" \
-               f"Current exact price: {self.exact_price}"
+    def __repr__(self):
+        return f'Hotel name: {self.name}'

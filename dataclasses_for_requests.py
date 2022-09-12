@@ -47,8 +47,8 @@ class PropParams(CommonParams):
 
     def __post_init__(self):
         super(PropParams, self).__post_init__()
-        self.checkIn = to_iso(self.checkIn)
-        self.checkOut = to_iso(self.checkOut)
+        self.checkIn = self.checkIn
+        self.checkOut = self.checkOut
 
 
 @dataclass(kw_only=True)

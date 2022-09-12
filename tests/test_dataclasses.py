@@ -1,39 +1,28 @@
-from dataclasses_for_parsing import CommonParams, PropParams, BestDeal, asdict
+from dataclasses import asdict
+
+from telebot import formatting
+
+from dataclasses_for_parsing import FoundHotel
+from markups import FormTextResp
+
+f = FormTextResp()
 
 
-def test_req_params():
-    t1 = CommonParams(query='New york')
-    assert t1.locale == 'en-US', t1.currency == 'USD'
-    assert asdict(t1) == {'query': 'New york', 'locale': 'en-US',
-                          'currency': 'USD'}
 
-
-def test_prop_params():
-    t2 = PropParams(
-        query='moscow',
-        pageSize='3',
-        checkOut='2022.12.12',
-        checkIn='2022.12.12',
-        sortOrder='PRICE',
-        destinationId='123444'
+class TestFoundHotel:
+    test_hotel = FoundHotel(
+        id=1111,
+        name='aaaa',
+        address='bbbb',
+        label='lllll',
+        distance='00000',
+        price='12',
+        exact_price=13,
+        query_type='low',
+        total_days=10
     )
-    assert t2
-    assert t2.locale == 'en-US'
-    assert t2.currency == 'USD'
 
-
-def test_best_deal():
-    t3 = BestDeal(
-        query='moscow',
-        pageSize='3',
-        checkOut='2022.12.12',
-        checkIn='2022.12.12',
-        sortOrder='PRICE',
-        priceMax='500',
-        priceMin='100',
-        destinationId='123444'
-    )
-    assert t3
-    assert t3.locale == 'en-US'
-    assert t3.currency == 'USD'
-
+    def test_output(self):
+        print(self.test_hotel)
+        # print(asdict(self.test_hotel))
+        # print(type(asdict(self.test_hotel).get('print_info')))

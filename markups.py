@@ -1,8 +1,8 @@
+from telebot import formatting
 from telebot.async_telebot import types, AsyncTeleBot
 from os import linesep
 from abc import ABC, abstractmethod
 from typing import List
-import asyncio
 
 COMMANDS_REF = {
     '/start': 'start command',
@@ -10,9 +10,22 @@ COMMANDS_REF = {
     '/lowest_price': 'command for making query of lowest cost hotels',
     '/highest_price': 'command for making query of highest cost hotels',
     '/history': 'shows history of users requests',
-    '/best_deal': 'shows best hotel for given parameters'
-
+    '/best_deal': 'shows best hotel for given parameters',
+    '/back': 'interrupts any command and returns to start menu'
 }
+
+
+class FormTextResp:
+    """
+    Class for formatting text output
+    """
+    @classmethod
+    def header(cls, head: str):
+        return formatting.mbold(head)
+
+    @classmethod
+    def main_text(cls, line: list):
+        return formatting.mbold(line[0]) + formatting.mitalic(line[1])
 
 
 class MyButtons(ABC):
@@ -22,7 +35,6 @@ class MyButtons(ABC):
     _lowest_price = types.KeyboardButton('/lowest_price')
     _highest_price = types.KeyboardButton('/highest_price')
     _back = types.KeyboardButton('/back')
-    _stop_chat = types.KeyboardButton('/stop_chat')
     _history = types.KeyboardButton('/history')
     _yes = types.KeyboardButton('Yes')
     _no = types.KeyboardButton('No')
@@ -43,7 +55,6 @@ class ComBtns(MyButtons):
     lowest_price = MyButtons._lowest_price
     highest_price = MyButtons._highest_price
     back = MyButtons._back
-    stop_chat = MyButtons._stop_chat
     history = MyButtons._history
 
     async def _btns(self):
@@ -56,6 +67,13 @@ class ComBtns(MyButtons):
     async def c_markup(self, state=None):
         return await self._btns()
 
+    @classmethod
+    async def next_markup(cls, text):
+        base_markup = types.ReplyKeyboardMarkup(row_width=3,
+                                                resize_keyboard=True)
+        nxt = types.KeyboardButton(text)
+        return base_markup.add(nxt)
+
 
 class Switcher(MyButtons):
     yes = MyButtons._yes
@@ -67,7 +85,7 @@ class Switcher(MyButtons):
         return base_markup.add(*[self.yes, self.no])
 
     async def c_markup(self, state=None):
-        if state == 'get_photos':
+        if state == 'yes_no':
             return await self._btns()
         else:
             return types.ReplyKeyboardRemove()
@@ -86,7 +104,6 @@ class MyCommands:
                                   'list of cheapest hotels')
     _com_hist = types.BotCommand('/history', 'shows history of your requests')
     _com_back = types.BotCommand('/back', 'returns to previous command')
-    _com_stop_chat = types.BotCommand('/stop_chat', 'stops certain chat')
 
 
 class MyCommSet(types.BotCommandScopeDefault):
