@@ -1,10 +1,11 @@
 EasyTravel Bot
 
 The EasyTravel Bot is a bot that allows you to search for hotels in a city of your choice by calling an external API (RapidAPI). It uses several libraries, including pyTelegramBotAPI, asyncio, aiohttp, sqlalchemy, and alembic, to make the bot functional and efficient. The bot uses SQLite3 as its database and StatePickleStorage for cache memory.
+Supports versions of Python 3.10 and above
 
 Main Libraries
 
-pyTelegramBotAPI: a library for implementing the bot using long pooling method and working with the Telegram API
+* pyTelegramBotAPI: a library for implementing the bot using long pooling method and working with the Telegram API
 * asyncio: a library for implementing asynchronous functionality
 * aiohttp: a library for forming requests to an external resource with 
   asynchronous functionality
