@@ -33,12 +33,12 @@ declared in the requester.py module
 
 When the /start command is pressed in the Telegram client, a welcome message is sent, and a keyboard with available commands appears. The available commands are:
 
-/start: basic command, launches a dialog with the bot
-/help: outputs a list of available commands and their brief description
-/lowest_price: launches a dialog for collecting data required for obtaining hotels at the lowest price
-/highest_price: launches a dialog for collecting data required for obtaining hotels at the highest price
-/history: launches a dialog for collecting parameters for displaying request history
-/best_deal: launches a dialog for collecting data required for obtaining hotels in a selected price range and a distance from the center
-/back: interrupts any command and returns to the command selection menu
+* /start: basic command, launches a dialog with the bot
+* /help: outputs a list of available commands and their brief description
+* /lowest_price: launches a dialog for collecting data required for obtaining hotels at the lowest price
+* /highest_price: launches a dialog for collecting data required for obtaining hotels at the highest price
+* /history: launches a dialog for collecting parameters for displaying request history
+* /best_deal: launches a dialog for collecting data required for obtaining hotels in a selected price range and a distance from the center
+* /back: interrupts any command and returns to the command selection menu
 Sending a message outside of parameter collection, which is not recognized as a command, will result in sending an "echo" message. Regular expressions are used when collecting request parameters, even at a basic level.
 
